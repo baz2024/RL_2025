@@ -10,6 +10,8 @@ This module introduces the core principles and practices of Reinforcement Learni
 ## Table of Contents
 
 1. [Lab 1: Introduction to Reinforcement Learning](/Labs/RL_Lab_Setup.md)  
-    - [Lab 1 Solution](Labs/gym_intro.ipynb)
-2. [Lab 2: LunarLander](Labs/RL_Lab2_LunarLander.md)
-- [Lab 2 Solution](Labs/RL_Lab2_LunarLander.md)
+    - [Lab 1 Solution](/Labs/gym_intro.ipynb)
+2. [Lab 2: LunarLander](/Labs/RL_Lab2_LunarLander.md)
+- [Lab 2 Solution](/Labs/RL_Lab2_LunarLander.md)
+3. [Lab 2.1:  Creating first Gym environment](/Labs/2.1%20CreatingfirstGymenvironment.ipynb)
+4. [Lab 2.2: Training an agent to Walk](/Labs/2.2%20Training%20an%20Robot%20to%20Walk.ipynb)
