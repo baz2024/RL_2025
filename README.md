@@ -1,1 +1,15 @@
-# RL_2025
+Reinforcement Learning 2025
+=======================================
+
+This module introduces the core principles and practices of Reinforcement Learning (RL), with a focus on key online learning algorithms. More mathematical content is presented separately in shaded boxes to support conceptual clarity. The module equips learners with practical RL techniques and explores how this learning paradigm underpins autonomous mechanisms for structural knowledge representation. It examines various multilayer architectures that generate meaningful, functional knowledge structures and highlights how these developments are critical to delivering effective, real-world solutions.
+ 
+
+
+# Weekly Labs
+
+## Table of Contents
+
+1. [Lab 1: Introduction to Reinforcement Learning](labs/RL_Lab_Setup.md)  
+    - [Lab 1 Solution](labs/gym_intro.ipynb)
+2. [Lab 2: Policy Gradient Methods](labs/RL_Lab2_LunarLander.md)
+- [Lab 2 Solution](labs/RL_Lab2_LunarLander.md)
