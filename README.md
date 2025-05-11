@@ -9,7 +9,7 @@ This module introduces the core principles and practices of Reinforcement Learni
 
 ## Table of Contents
 
-1. [Lab 1: Introduction to Reinforcement Learning](Labs/RL_Lab_Setup.md)  
+1. [Lab 1: Introduction to Reinforcement Learning](/Labs/RL_Lab_Setup.md)  
     - [Lab 1 Solution](Labs/gym_intro.ipynb)
 2. [Lab 2: LunarLander](Labs/RL_Lab2_LunarLander.md)
 - [Lab 2 Solution](Labs/RL_Lab2_LunarLander.md)
