@@ -17,4 +17,4 @@ This module introduces the core principles and practices of Reinforcement Learni
 3. [Lab 2.1:  Creating first Gym environment](/Labs/Week%201/2.1%20CreatingfirstGymenvironment.ipynb)
 4. [Lab 2.2: Training an agent to Walk](/Labs/Week%201/2.2%20Training%20an%20Robot%20to%20Walk.ipynb)
 ### Week 2:
-1. Reinforcement Learning: Review & Practice
+1. [Reinforcement Learning: Review & Practice](/Labs/Week%201/1.0_RL_Review_and_Exercises.ipynb)
