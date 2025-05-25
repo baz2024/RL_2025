@@ -20,5 +20,7 @@ This module introduces the core principles and practices of Reinforcement Learni
 1. [Reinforcement Learning: Review & Practice](/Labs/Week%201&2/1.0_RL_Review_and_Exercises.ipynb)
 ### Week 3:
 1. [Lab 3.1: Custom Gymnasium Environment](./Labs/week%203/3.1%20Custom%20Gymnasium%20Env%20Tutorial.ipynb)
+1.1 [Lab 3.1.1: Realistic Emergency Room Simulation using Gymnasium](./Labs/week%203/3.1.1%20Advanced%20%20Emergency%20Room%20Env%20simulation.ipynb)
 2. [Lab 3.2: Solving Frozen Lake Problem Using Value Iteration](./Labs/week%203/3.2%20Solving%20Frozen%20Lake%20Problem%20Using%20Value%20Iteration.ipynb)
 3. [Lab 3.3:Solving Frozen Lake Problem Using Policy Iteration](./Labs/week%203/3.3%20Solving%20Frozen%20Lake%20Problem%20Using%20Policy_Iteration.ipynb)
+4. [Exercise: Solving the Emergency Room Simulation using Value Iteration and Policy Iteration](./Labs/week%203/3.4%20EmergencyRoom_Value_and_Policy_Iteration.md)
