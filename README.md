@@ -11,10 +11,14 @@ This module introduces the core principles and practices of Reinforcement Learni
 ### Week 1:
 
 1. [Lab 1: Introduction to Reinforcement Learning](/Labs/Week%201/RL_Lab_Setup.md)  
-    - [Lab 1 Solution](/Labs/Week%201/gym_intro.ipynb)
-2. [Lab 2: LunarLander](/Labs/Week%201/RL_Lab2_LunarLander.md)
-- [Lab 2 Solution](/Labs/Week%201/RL_Lab2_LunarLander.md)
-3. [Lab 2.1:  Creating first Gym environment](/Labs/Week%201/2.1%20CreatingfirstGymenvironment.ipynb)
-4. [Lab 2.2: Training an agent to Walk](/Labs/Week%201/2.2%20Training%20an%20Robot%20to%20Walk.ipynb)
+    - [Lab 1 Solution](/Labs/Week%201&2/gym_intro.ipynb)
+2. [Lab 2: LunarLander](/Labs/Week%201&2/RL_Lab2_LunarLander.md)
+- [Lab 2 Solution](/Labs/Week%201&2/RL_Lab2_LunarLander.md)
+3. [Lab 2.1:  Creating first Gym environment](/Labs/Week%201&2/2.1%20CreatingfirstGymenvironment.ipynb)
+4. [Lab 2.2: Training an agent to Walk](/Labs/Week%201&2/2.2%20Training%20an%20Robot%20to%20Walk.ipynb)
 ### Week 2:
-1. [Reinforcement Learning: Review & Practice](/Labs/Week%201/1.0_RL_Review_and_Exercises.ipynb)
+1. [Reinforcement Learning: Review & Practice](/Labs/Week%201&2/1.0_RL_Review_and_Exercises.ipynb)
+### Week 3:
+1. [Lab 3.1: Custom Gymnasium Environment](./Labs/week%203/3.1%20Custom%20Gymnasium%20Env%20Tutorial.ipynb)
+2. [Lab 3.2: Solving Frozen Lake Problem Using Value Iteration](./Labs/week%203/3.2%20Solving%20Frozen%20Lake%20Problem%20Using%20Value%20Iteration.ipynb)
+3. [Lab 3.3:Solving Frozen Lake Problem Using Policy Iteration](./Labs/week%203/3.3%20Solving%20Frozen%20Lake%20Problem%20Using%20Policy_Iteration.ipynb)
