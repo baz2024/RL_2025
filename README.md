@@ -24,3 +24,9 @@ This module introduces the core principles and practices of Reinforcement Learni
 2. [Lab 3.2: Solving Frozen Lake Problem Using Value Iteration](./Labs/week%203/3.2%20Solving%20Frozen%20Lake%20Problem%20Using%20Value%20Iteration.ipynb)
 3. [Lab 3.3:Solving Frozen Lake Problem Using Policy Iteration](./Labs/week%203/3.3%20Solving%20Frozen%20Lake%20Problem%20Using%20Policy_Iteration.ipynb)
 4. [Exercise: Solving the Emergency Room Simulation using Value Iteration and Policy Iteration](./Labs/week%203/3.4%20EmergencyRoom_Value_and_Policy_Iteration.md)
+### Week 4:
+1. [Monte Carlo Method for Grid World](./Labs/week%204/4.1%20monte_carlo_gridworld.ipynb)
+2. [Playing BlackJack with First Visit MC](./Labs/week%204/4.2%20BlackJack%20with%20First%20visit%20MC_gymnasium.ipynb)
+3. [Playing BlackJack with epsilon-greedy policy MC](./Labs/week%204/4.3%20BlackJack%20with%20Epsilon-greedy%20MC_gymnasium.ipynb)
+4. [Monte Carlo Prediction in a Simple Emergency Room Environment](./Labs/week%204/simple_emergency_room_mc_debug.ipynb)
+5. [Exercise: Solve the Emergency Room Environment using Monte Carlo Methods](./Labs/week%204/Advanced_EmergencyRoom_MC_Exercise.ipynb)
