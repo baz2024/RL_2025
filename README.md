@@ -38,3 +38,4 @@ This module introduces the core principles and practices of Reinforcement Learni
 2. [Lab 6.2 Double Dueling DQN Tutorial gym bandits](./Labs/week%206/Lab%206.2%20Double_Dueling_DQN_Tutorial_gym_bandits.ipynb)
 3. [Lab 6.3 Playing Atari with DQN](./Labs/week%206/Lab%206.3_Atari_DQN_Notebook.ipynb)
 4. [ lab 6.4: Double Dueling DQN for Atari (Breakout)](./Labs/week%206/Lab%206.5_DRQN_Pong_Breakout.ipynb)
+5. [Lab 6.5 DRQN Pong and Breakout](./Labs/week%206/Lab%206.5_DRQN_Pong_Breakout.ipynb)
