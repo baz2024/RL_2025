@@ -1,0 +1,699 @@
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 1)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 2)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 3)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 4)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 5)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 6)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 7)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 8)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 9)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 10)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 11)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 12)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 13)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 14)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 15)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 16)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 17)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 18)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 19)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 20)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 21)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 22)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 23)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 24)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 25)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 26)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 27)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 28)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 29)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 30)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 31)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 32)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 33)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 34)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 35)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 36)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 37)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 38)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 39)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 40)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 41)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 42)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 43)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 44)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 45)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 46)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 47)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 48)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 49)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 50)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 51)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 52)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 53)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 54)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 55)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 56)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 57)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 58)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 59)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 60)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 61)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 62)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 63)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 64)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 65)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 66)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 67)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 68)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 69)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 70)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 71)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 72)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 73)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 74)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 75)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 76)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 77)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 78)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 79)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 80)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 81)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 82)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 83)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 84)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 85)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 86)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 87)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 88)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 89)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 90)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C
+
+Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (Question 91)
+A. RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.
+B. RL uses labeled data while Supervised Learning does not.
+C. Supervised Learning optimizes cumulative rewards.
+D. RL cannot operate in dynamic environments.
+ANSWER: A
+
+What is the primary role of the agent in Reinforcement Learning? (Question 92)
+A. To define the environment.
+B. To maximize cumulative rewards through interactions.
+C. To provide feedback to the environment.
+D. To observe only the current reward.
+ANSWER: B
+
+What is the main purpose of the Bellman Equation in reinforcement learning? (Question 93)
+A. To calculate gradients for neural networks.
+B. To determine policy randomness.
+C. To recursively estimate the value of states or state-action pairs.
+D. To initialize Q-values arbitrarily.
+ANSWER: C
+
+Why is balancing exploration and exploitation important in RL? (Question 94)
+A. Because exploration reduces the model accuracy.
+B. To avoid infinite loops during training.
+C. To ensure the agent gathers information while maximizing rewards.
+D. Because exploitation avoids computational cost.
+ANSWER: C
+
+Which of the following is a limitation of Monte Carlo methods in RL? (Question 95)
+A. They cannot estimate value functions.
+B. They require knowledge of model dynamics.
+C. They are not suitable for continuous or non-episodic tasks.
+D. They rely on the Bellman equation for updates.
+ANSWER: C
+
+What distinguishes the SARSA algorithm from Q-Learning? (Question 96)
+A. SARSA is an off-policy algorithm while Q-Learning is on-policy.
+B. Q-Learning updates the policy with exploration, SARSA does not.
+C. SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.
+D. Q-Learning does not use a reward function.
+ANSWER: C
+
+Which of the following is a key benefit of Temporal Difference (TD) learning? (Question 97)
+A. It requires full knowledge of the environment's transition probabilities.
+B. It only works in episodic environments.
+C. It combines advantages of both DP and Monte Carlo methods.
+D. It avoids bootstrapping.
+ANSWER: C
+
+In the epsilon-greedy strategy, what does epsilon represent? (Question 98)
+A. The probability of choosing the greedy action.
+B. The probability of choosing a random action.
+C. The value of the best reward so far.
+D. The discount factor.
+ANSWER: B
+
+Why is Thompson Sampling effective in MAB problems? (Question 99)
+A. It avoids exploration entirely.
+B. It deterministically selects the best arm.
+C. It uses a Bayesian approach to balance exploration and exploitation.
+D. It requires prior knowledge of arm distributions.
+ANSWER: C
+
+What is a key characteristic of a model-free RL method? (Question 100)
+A. It uses a complete model of the environment.
+B. It cannot learn optimal policies.
+C. It does not require transition probabilities.
+D. It always requires the Bellman equation.
+ANSWER: C

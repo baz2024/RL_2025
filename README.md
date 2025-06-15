@@ -30,3 +30,11 @@ This module introduces the core principles and practices of Reinforcement Learni
 3. [Playing BlackJack with epsilon-greedy policy MC](./Labs/week%204/4.3%20BlackJack%20with%20Epsilon-greedy%20MC_gymnasium.ipynb)
 4. [Monte Carlo Prediction in a Simple Emergency Room Environment](./Labs/week%204/simple_emergency_room_mc_debug.ipynb)
 5. [Exercise: Solve the Emergency Room Environment using Monte Carlo Methods](./Labs/week%204/Advanced_EmergencyRoom_MC_Exercise.ipynb)
+### Week 5:
+1. [Lab 5.1 TwoArmedBandit_Gymnasium_WithPlot](./Labs/Week%205/Lab%205.1%20TwoArmedBandit_Gymnasium_WithPlot.ipynb)
+2. [Lab 5.2 Bandit_Strategy_Comparison](./Labs/Week%205/Lab%205.2%20Bandit_Strategy_Comparison.ipynb)
+### Week 6:
+1. [Lab 6.1 DQN_Tutorial_gym_bandits](./Labs/week%206/Lab%206.1%20DQN_Tutorial_gym_bandits.ipynb)
+2. [Lab 6.2 Double Dueling DQN Tutorial gym bandits](./Labs/week%206/Lab%206.2%20Double_Dueling_DQN_Tutorial_gym_bandits.ipynb)
+3. [Lab 6.3 Playing Atari with DQN](./Labs/week%206/Lab%206.3_Atari_DQN_Notebook.ipynb)
+4. [ lab 6.4: Double Dueling DQN for Atari (Breakout)](./Labs/week%206/Lab%206.5_DRQN_Pong_Breakout.ipynb)

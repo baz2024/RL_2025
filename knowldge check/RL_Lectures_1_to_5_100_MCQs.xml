@@ -1,0 +1,2403 @@
+<?xml version="1.0" ?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #1</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 1)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #2</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 2)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #3</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 3)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #4</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 4)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #5</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 5)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #6</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 6)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #7</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 7)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #8</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 8)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #9</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 9)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>RL vs Supervised Learning #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following best distinguishes Reinforcement Learning (RL) from Supervised Learning? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[RL uses delayed rewards while Supervised Learning uses immediate and labeled feedback.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL uses labeled data while Supervised Learning does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Supervised Learning optimizes cumulative rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[RL cannot operate in dynamic environments.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Key Component of RL #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In reinforcement learning, what is the primary role of the agent? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To define the environment]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To maximize cumulative rewards through interactions]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To provide feedback to the environment]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To observe only the current reward]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bellman Equation Purpose #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main purpose of the Bellman Equation in reinforcement learning? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To calculate gradients for neural networks]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To determine policy randomness]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To recursively estimate the value of states or state-action pairs]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To initialize Q-values arbitrarily]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration vs Exploitation #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is balancing exploration and exploitation important in RL? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploration reduces the model accuracy]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[To avoid infinite loops during training]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[To ensure the agent gathers information while maximizing rewards]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Because exploitation avoids computational cost]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Monte Carlo Applicability #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a limitation of Monte Carlo methods in RL? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They cannot estimate value functions.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They require knowledge of model dynamics.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[They are not suitable for continuous or non-episodic tasks.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[They rely on the Bellman equation for updates.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>MC vs TD Methods #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the key difference between Monte Carlo (MC) and Temporal Difference (TD) methods? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>&lt;![CDATA[MC methods update values incrementally, while TD waits till end of episode.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require a model, TD does not.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[TD methods use full return, MC uses estimated rewards.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[MC methods require the Bellman optimality equation.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>SARSA vs Q-Learning #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What distinguishes the SARSA algorithm from Q-Learning? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[SARSA is an off-policy algorithm while Q-Learning is on-policy.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning updates the policy with exploration, SARSA does not.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[SARSA updates using the next action from the same policy; Q-Learning uses greedy action for update.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[Q-Learning does not use a reward function.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>TD Learning Feature #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is a key benefit of Temporal Difference (TD) learning? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires full knowledge of the environment's transition probabilities.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It only works in episodic environments.]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It combines advantages of both DP and Monte Carlo methods.]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids bootstrapping.]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Exploration Strategy #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the epsilon-greedy strategy, what does epsilon represent? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The probability of choosing the greedy action]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[The probability of choosing a random action]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The value of the best reward so far]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[The discount factor]]&gt;</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Thompson Sampling Advantage #10</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why is Thompson Sampling considered effective in solving MAB problems? (variant 10)]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It avoids exploration entirely]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It deterministically selects the best arm]]&gt;</text>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;![CDATA[It uses a Bayesian approach to balance exploration and exploitation]]&gt;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;![CDATA[It requires prior knowledge of all arm distributions]]&gt;</text>
+    </answer>
+  </question>
+</quiz>
