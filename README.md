@@ -43,3 +43,5 @@ This module introduces the core principles and practices of Reinforcement Learni
 1. Review of Chapter 6 check Moodle page for excercies notebook
 2. [Lab 7.1 Policy Gradient](./Labs/week%207/Lab%207.1%20CartPole_Policy_Gradient_.ipynb)
 3. [Lab7.2 MountainCar using A3C ](./Labs/week%207/Lab7.2_MountainCar_A3C_gymnasium.ipynb)
+### Week 8:
+1. [Lab 8.1: Swinging up a Pendulum using DDPG](./Labs/week%208/Swinging%20up%20a%20Pendulum%20using%20DDPG)
